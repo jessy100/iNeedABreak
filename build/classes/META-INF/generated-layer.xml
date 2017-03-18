@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_jessy_iNeedABreak">
+                <file name="winndow" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.jessy.iNeedABreak.iNeedABreakTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.jessy.iNeedABreak//winndow//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="jessy">
+                    <folder name="iNeedABreak">
+                        <file name="iNeedABreakTopComponent">
+                            <!--org.jessy.iNeedABreak.iNeedABreakTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_jessy_iNeedABreak/winndow.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_jessy_iNeedABreak">
+                <file name="winndow.instance">
+                    <!--org.jessy.iNeedABreak.iNeedABreakTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.jessy.iNeedABreak.iNeedABreakTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.jessy.iNeedABreak.iNeedABreakTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-jessy-iNeedABreak-winndowTopComponent.shadow">
+                <!--org.jessy.iNeedABreak.iNeedABreakTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-jessy-iNeedABreak-winndowTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="winndowTopComponent.settings">
+                <!--org.jessy.iNeedABreak.iNeedABreakTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.jessy.iNeedABreak.iNeedABreakTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="output">
+                <file name="winndowTopComponent.wstcref">
+                    <!--org.jessy.iNeedABreak.iNeedABreakTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="winndowTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-jessy-iNeedABreak-winndowTopComponent.instance">
+                <!--org.jessy.iNeedABreak.iNeedABreakTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.jessy.iNeedABreak.iNeedABreakTopComponent"/>
+                <attr name="preferredID" stringvalue="winndowTopComponent"/>
+                <attr
+                    bundlevalue="org.jessy.iNeedABreak.Bundle#CTL_winndowAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.jessy.iNeedABreak">
+    <module_version install_time="1489851512547" last="true" origin="installer" specification_version="1.0">
+        <file crc="3889378680" name="config/Modules/org-jessy-iNeedABreak.xml"/>
+        <file crc="1563191618" name="modules/org-jessy-iNeedABreak.jar"/>
+    </module_version>
+</module>
